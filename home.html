@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUO IT - Strengthen Your Couple Bond</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #7B1FA2 0%, #E91E63 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 40px;
+            padding: 80px 60px;
+            max-width: 800px;
+            text-align: center;
+            box-shadow: 0 40px 100px rgba(0, 0, 0, 0.2);
+            animation: slideUp 0.6s ease-out;
+        }
+        
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        h1 {
+            font-size: 56px;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #7B1FA2 0%, #E91E63 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+        
+        .tagline {
+            font-size: 22px;
+            color: #7B1FA2;
+            margin-bottom: 50px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        
+        .description {
+            font-size: 17px;
+            line-height: 1.9;
+            color: #555;
+            margin-bottom: 60px;
+            font-weight: 300;
+        }
+        
+        .features {
+            text-align: left;
+            margin-bottom: 50px;
+            background: linear-gradient(135deg, #f8f5ff 0%, #fff5f8 100%);
+            padding: 40px;
+            border-radius: 25px;
+            border: 1px solid rgba(123, 31, 162, 0.1);
+        }
+        
+        .features h3 {
+            color: #E91E63;
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        
+        .features ul {
+            list-style: none;
+            font-size: 16px;
+            line-height: 2.3;
+            color: #666;
+        }
+        
+        .features li {
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .features li:hover {
+            transform: translateX(10px);
+            color: #7B1FA2;
+        }
+        
+        .features li:before {
+            content: "❤";
+            color: #E91E63;
+            margin-right: 15px;
+            font-size: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .features li:hover:before {
+            transform: scale(1.2);
+        }
+        
+        .footer {
+            font-size: 13px;
+            color: #aaa;
+            border-top: 2px solid #f0f0f0;
+            padding-top: 30px;
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .footer a {
+            color: #7B1FA2;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .footer a:hover {
+            color: #E91E63;
+        }
+        
+        .footer a:after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(135deg, #7B1FA2, #E91E63);
+            transition: width 0.3s ease;
+        }
+        
+        .footer a:hover:after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DUO IT</h1>
+        <p class="tagline">Strengthen Your Couple Bond Through Play</p>
+        
+        <p class="description">
+            A unique app for couples that combines gamification with meaningful connection. Daily challenges, shared achievements, and interactive features that celebrate your relationship.
+        </p>
+        
+        <div class="features">
+            <h3>What You'll Get</h3>
+            <ul>
+                <li>Daily couple challenges with coins and rewards</li>
+                <li>Track shared achievements and celebrations</li>
+                <li>Love Tree that grows with your presence</li>
+                <li>Forest of Love to cherish your memories</li>
+                <li>Communication and connection made fun</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <a href="/privacy/">Privacy</a>
+            <a href="/terms/">Terms</a>
+            <a href="/delete-account/">Delete Account</a>
+        </div>
+    </div>
+</body>
+</html>
